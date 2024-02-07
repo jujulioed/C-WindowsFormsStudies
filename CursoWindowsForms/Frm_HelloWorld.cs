@@ -24,7 +24,7 @@ namespace CursoWindowsForms
 
         private void Btn_ModifiesLabel_Click(object sender, EventArgs e)
         {
-            lbl_Title.Text = "Label successfully modified";
+            lbl_Title.Text = Txt_InputLabel.Text;
         }
     }
 }

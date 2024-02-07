@@ -32,6 +32,7 @@ namespace CursoWindowsForms
             this.lbl_Title = new System.Windows.Forms.Label();
             this.Btn_Close = new System.Windows.Forms.Button();
             this.Btn_ModifiesLabel = new System.Windows.Forms.Button();
+            this.Txt_InputLabel = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_Title
@@ -58,7 +59,7 @@ namespace CursoWindowsForms
             // 
             // Btn_ModifiesLabel
             // 
-            this.Btn_ModifiesLabel.Location = new System.Drawing.Point(47, 37);
+            this.Btn_ModifiesLabel.Location = new System.Drawing.Point(17, 37);
             this.Btn_ModifiesLabel.Name = "Btn_ModifiesLabel";
             this.Btn_ModifiesLabel.Size = new System.Drawing.Size(175, 23);
             this.Btn_ModifiesLabel.TabIndex = 2;
@@ -66,12 +67,20 @@ namespace CursoWindowsForms
             this.Btn_ModifiesLabel.UseVisualStyleBackColor = true;
             this.Btn_ModifiesLabel.Click += new System.EventHandler(this.Btn_ModifiesLabel_Click);
             // 
+            // Txt_InputLabel
+            // 
+            this.Txt_InputLabel.Location = new System.Drawing.Point(17, 66);
+            this.Txt_InputLabel.Name = "Txt_InputLabel";
+            this.Txt_InputLabel.Size = new System.Drawing.Size(301, 20);
+            this.Txt_InputLabel.TabIndex = 3;
+            // 
             // Frm_HelloWorld
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(584, 441);
+            this.Controls.Add(this.Txt_InputLabel);
             this.Controls.Add(this.Btn_ModifiesLabel);
             this.Controls.Add(this.Btn_Close);
             this.Controls.Add(this.lbl_Title);
@@ -88,6 +97,7 @@ namespace CursoWindowsForms
         private System.Windows.Forms.Label lbl_Title;
         private System.Windows.Forms.Button Btn_Close;
         private System.Windows.Forms.Button Btn_ModifiesLabel;
+        private System.Windows.Forms.TextBox Txt_InputLabel;
     }
 }
 

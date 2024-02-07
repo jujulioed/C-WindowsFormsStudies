@@ -35,7 +35,7 @@ namespace CursoWindowsForms
             this.Lbl_Minus = new System.Windows.Forms.Label();
             this.Lbl_Maius = new System.Windows.Forms.Label();
             this.Lbl_Upper = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Lbl_Lower = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Txt_Input
@@ -44,6 +44,7 @@ namespace CursoWindowsForms
             this.Txt_Input.Name = "Txt_Input";
             this.Txt_Input.Size = new System.Drawing.Size(100, 20);
             this.Txt_Input.TabIndex = 0;
+            this.Txt_Input.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Input_KeyDown);
             // 
             // Txt_Msg
             // 
@@ -63,6 +64,7 @@ namespace CursoWindowsForms
             this.Btn_Reset.TabIndex = 2;
             this.Btn_Reset.Text = "Limpa";
             this.Btn_Reset.UseVisualStyleBackColor = true;
+            this.Btn_Reset.Click += new System.EventHandler(this.Btn_Reset_Click);
             // 
             // Lbl_Minus
             // 
@@ -88,20 +90,20 @@ namespace CursoWindowsForms
             this.Lbl_Upper.Size = new System.Drawing.Size(32, 23);
             this.Lbl_Upper.TabIndex = 5;
             // 
-            // label1
+            // Lbl_Lower
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label1.Location = new System.Drawing.Point(368, 104);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 23);
-            this.label1.TabIndex = 6;
+            this.Lbl_Lower.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Lbl_Lower.Location = new System.Drawing.Point(368, 104);
+            this.Lbl_Lower.Name = "Lbl_Lower";
+            this.Lbl_Lower.Size = new System.Drawing.Size(32, 23);
+            this.Lbl_Lower.TabIndex = 6;
             // 
             // Frm_DemonstracaoKey
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(409, 281);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Lbl_Lower);
             this.Controls.Add(this.Lbl_Upper);
             this.Controls.Add(this.Lbl_Maius);
             this.Controls.Add(this.Lbl_Minus);
@@ -109,6 +111,7 @@ namespace CursoWindowsForms
             this.Controls.Add(this.Txt_Msg);
             this.Controls.Add(this.Txt_Input);
             this.Name = "Frm_DemonstracaoKey";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Demonstração Evento Key";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -123,6 +126,6 @@ namespace CursoWindowsForms
         private System.Windows.Forms.Label Lbl_Minus;
         private System.Windows.Forms.Label Lbl_Maius;
         private System.Windows.Forms.Label Lbl_Upper;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Lbl_Lower;
     }
 }

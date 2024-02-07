@@ -8,3 +8,4 @@ E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\C
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.exe
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_HelloWorld.resources
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_DemonstracaoKey.resources

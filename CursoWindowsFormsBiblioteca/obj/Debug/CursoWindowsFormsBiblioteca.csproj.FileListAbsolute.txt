@@ -1,0 +1,6 @@
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.dll
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.pdb
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb

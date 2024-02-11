@@ -11,3 +11,5 @@ E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\C
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_DemonstracaoKey.resources
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaSenha.resources
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Mascara.resources
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF.resources
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaCPF2.resources

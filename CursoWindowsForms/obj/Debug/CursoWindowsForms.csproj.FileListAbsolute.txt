@@ -17,3 +17,5 @@ E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\C
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsFormsBiblioteca.dll
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\bin\Debug\CursoWindowsFormsBiblioteca.pdb
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu.resources
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Principal_Menu_MDI.resources

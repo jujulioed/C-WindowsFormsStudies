@@ -29,6 +29,7 @@ namespace CursoWindowsForms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_HelloWorld));
             this.lbl_Title = new System.Windows.Forms.Label();
             this.Btn_Close = new System.Windows.Forms.Button();
             this.Btn_ModifiesLabel = new System.Windows.Forms.Button();
@@ -84,6 +85,7 @@ namespace CursoWindowsForms
             this.Controls.Add(this.Btn_ModifiesLabel);
             this.Controls.Add(this.Btn_Close);
             this.Controls.Add(this.lbl_Title);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Frm_HelloWorld";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hello World";

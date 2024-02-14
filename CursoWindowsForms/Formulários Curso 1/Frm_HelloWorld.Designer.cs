@@ -46,9 +46,11 @@ namespace CursoWindowsForms
             this.lbl_Title.Size = new System.Drawing.Size(245, 25);
             this.lbl_Title.TabIndex = 0;
             this.lbl_Title.Text = "Visual Studio .NET version";
+            this.lbl_Title.Click += new System.EventHandler(this.lbl_Title_Click);
             // 
             // Btn_Close
             // 
+            this.Btn_Close.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.Btn_Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Close.Location = new System.Drawing.Point(205, 340);
             this.Btn_Close.Name = "Btn_Close";
@@ -70,10 +72,13 @@ namespace CursoWindowsForms
             // 
             // Txt_InputLabel
             // 
+            this.Txt_InputLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_InputLabel.Location = new System.Drawing.Point(17, 66);
             this.Txt_InputLabel.Name = "Txt_InputLabel";
             this.Txt_InputLabel.Size = new System.Drawing.Size(301, 20);
             this.Txt_InputLabel.TabIndex = 3;
+            this.Txt_InputLabel.TextChanged += new System.EventHandler(this.Txt_InputLabel_TextChanged);
             // 
             // Frm_HelloWorld
             // 

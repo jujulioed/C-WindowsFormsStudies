@@ -49,6 +49,9 @@ namespace CursoWindowsForms
             // 
             // Txt_Msg
             // 
+            this.Txt_Msg.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_Msg.Location = new System.Drawing.Point(8, 40);
             this.Txt_Msg.Multiline = true;
             this.Txt_Msg.Name = "Txt_Msg";
@@ -59,6 +62,7 @@ namespace CursoWindowsForms
             // 
             // Btn_Reset
             // 
+            this.Btn_Reset.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Reset.Location = new System.Drawing.Point(320, 8);
             this.Btn_Reset.Name = "Btn_Reset";
             this.Btn_Reset.Size = new System.Drawing.Size(75, 28);
@@ -69,6 +73,7 @@ namespace CursoWindowsForms
             // 
             // Lbl_Minus
             // 
+            this.Lbl_Minus.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Minus.Location = new System.Drawing.Point(320, 104);
             this.Lbl_Minus.Name = "Lbl_Minus";
             this.Lbl_Minus.Size = new System.Drawing.Size(40, 16);
@@ -77,6 +82,7 @@ namespace CursoWindowsForms
             // 
             // Lbl_Maius
             // 
+            this.Lbl_Maius.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Maius.Location = new System.Drawing.Point(320, 56);
             this.Lbl_Maius.Name = "Lbl_Maius";
             this.Lbl_Maius.Size = new System.Drawing.Size(40, 16);
@@ -85,6 +91,7 @@ namespace CursoWindowsForms
             // 
             // Lbl_Upper
             // 
+            this.Lbl_Upper.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Upper.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Lbl_Upper.Location = new System.Drawing.Point(368, 56);
             this.Lbl_Upper.Name = "Lbl_Upper";
@@ -93,6 +100,7 @@ namespace CursoWindowsForms
             // 
             // Lbl_Lower
             // 
+            this.Lbl_Lower.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Lower.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Lbl_Lower.Location = new System.Drawing.Point(368, 104);
             this.Lbl_Lower.Name = "Lbl_Lower";

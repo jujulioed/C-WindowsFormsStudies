@@ -10,31 +10,16 @@ using System.Windows.Forms;
 
 namespace CursoWindowsForms
 {
-    public partial class Frm_HelloWorld : Form
+    public partial class Frm_HelloWorld_UC : UserControl
     {
-        public Frm_HelloWorld()
+        public Frm_HelloWorld_UC()
         {
             InitializeComponent();
-        }
-
-        private void Btn_Close_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void Btn_ModifiesLabel_Click(object sender, EventArgs e)
         {
             lbl_Title.Text = Txt_InputLabel.Text;
-        }
-
-        private void Txt_InputLabel_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_Title_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

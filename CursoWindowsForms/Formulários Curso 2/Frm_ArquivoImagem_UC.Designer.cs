@@ -1,7 +1,7 @@
 ﻿
 namespace CursoWindowsForms
 {
-    partial class Frm_ArquivoImagem
+    partial class Frm_ArquivoImagem_UC
     {
         /// <summary> 
         /// Variável de designer necessária.

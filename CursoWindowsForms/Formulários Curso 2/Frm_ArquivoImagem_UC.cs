@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CursoWindowsForms
 {
-    public partial class Frm_ArquivoImagem : UserControl
+    public partial class Frm_ArquivoImagem_UC : UserControl
     {
-        public Frm_ArquivoImagem(string nomeArquivoImage)
+        public Frm_ArquivoImagem_UC(string nomeArquivoImage)
         {
             InitializeComponent();
             Lbl_ArquivoImagem.Text = nomeArquivoImage;

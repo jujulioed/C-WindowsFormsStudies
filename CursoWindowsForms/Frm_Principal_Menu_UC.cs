@@ -24,6 +24,11 @@ namespace CursoWindowsForms
         public Frm_Principal_Menu_UC()
         {
             InitializeComponent();
+
+            novoToolStripMenuItem.Enabled = false;
+            fecharAbaToolStripMenuItem.Enabled = false;
+            abrirImagemToolStripMenuItem.Enabled = false;
+            desconectarToolStripMenuItem.Enabled = false;
         }
 
         private void arquivoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -137,7 +142,7 @@ namespace CursoWindowsForms
                 string nomeArquivoImage = Db.FileName;
 
                 ControleArquivoImagem += 1;
-                Frm_ArquivoImagem U = new Frm_ArquivoImagem(nomeArquivoImage);
+                Frm_ArquivoImagem_UC U = new Frm_ArquivoImagem_UC(nomeArquivoImage);
                 U.Dock = DockStyle.Fill;
                 TabPage TB = new TabPage();
                 TB.Name = "Arquivo Imagem " + ControleArquivoImagem;
@@ -146,6 +151,56 @@ namespace CursoWindowsForms
                 TB.Controls.Add(U);
                 Tbc_Aplicacoes.TabPages.Add(TB);
             }
+        }
+
+        private void conectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm_Login F = new Frm_Login();
+            F.ShowDialog();
+
+            if (F.DialogResult == DialogResult.OK)
+            {
+                string senha = F.senha;
+                string usuario = F.login;
+
+                if (CursoWindowsFormsBiblioteca.Cls_Uteis.validaSenhaLogin(senha) == true)
+                {
+                    novoToolStripMenuItem.Enabled = true;
+                    fecharAbaToolStripMenuItem.Enabled = true;
+                    abrirImagemToolStripMenuItem.Enabled = true;
+                    conectarToolStripMenuItem.Enabled = false;
+                    desconectarToolStripMenuItem.Enabled = true;
+
+                    MessageBox.Show("Bem vindo " + usuario + "!", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Senha inválida!", "Mensagem", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Frm_Questao Db = new Frm_Questao("question_mark", "Você deseja se desconectar?");
+            Db.ShowDialog();
+            if (Db.DialogResult == DialogResult.Yes)
+            {
+
+                //Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
+
+                for (int i= Tbc_Aplicacoes.TabPages.Count - 1; i >= 0; i+=-1)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
+
+                novoToolStripMenuItem.Enabled = false;
+                fecharAbaToolStripMenuItem.Enabled = false;
+                abrirImagemToolStripMenuItem.Enabled = false;
+                conectarToolStripMenuItem.Enabled = true;
+                desconectarToolStripMenuItem.Enabled = false;
+            }            
         }
     }
 }

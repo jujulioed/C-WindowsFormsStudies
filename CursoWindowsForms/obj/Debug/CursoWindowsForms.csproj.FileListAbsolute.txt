@@ -28,3 +28,4 @@ E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\C
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ValidaSenha_UC.resources
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Questao.resources
 E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_ArquivoImagem.resources
+E:\C#_Projects\repos\Alura_Curso\CursoWindowsForms\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Login.resources

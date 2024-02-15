@@ -33,5 +33,35 @@ namespace CursoWindowsForms
             Lbl_Upper.Text = "";
             Lbl_Lower.Text = "";
         }
+
+        private void Lbl_Upper_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_Maius_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_Minus_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_Lower_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_Msg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_Input_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

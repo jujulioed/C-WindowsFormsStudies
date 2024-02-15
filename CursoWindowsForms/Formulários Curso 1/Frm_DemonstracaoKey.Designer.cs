@@ -45,6 +45,7 @@ namespace CursoWindowsForms
             this.Txt_Input.Name = "Txt_Input";
             this.Txt_Input.Size = new System.Drawing.Size(100, 20);
             this.Txt_Input.TabIndex = 0;
+            this.Txt_Input.TextChanged += new System.EventHandler(this.Txt_Input_TextChanged);
             this.Txt_Input.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Txt_Input_KeyDown);
             // 
             // Txt_Msg
@@ -59,6 +60,7 @@ namespace CursoWindowsForms
             this.Txt_Msg.Size = new System.Drawing.Size(304, 232);
             this.Txt_Msg.TabIndex = 1;
             this.Txt_Msg.TabStop = false;
+            this.Txt_Msg.TextChanged += new System.EventHandler(this.Txt_Msg_TextChanged);
             // 
             // Btn_Reset
             // 
@@ -79,6 +81,7 @@ namespace CursoWindowsForms
             this.Lbl_Minus.Size = new System.Drawing.Size(40, 16);
             this.Lbl_Minus.TabIndex = 3;
             this.Lbl_Minus.Text = "Minus.";
+            this.Lbl_Minus.Click += new System.EventHandler(this.Lbl_Minus_Click);
             // 
             // Lbl_Maius
             // 
@@ -88,6 +91,7 @@ namespace CursoWindowsForms
             this.Lbl_Maius.Size = new System.Drawing.Size(40, 16);
             this.Lbl_Maius.TabIndex = 4;
             this.Lbl_Maius.Text = "Maius.";
+            this.Lbl_Maius.Click += new System.EventHandler(this.Lbl_Maius_Click);
             // 
             // Lbl_Upper
             // 
@@ -97,6 +101,7 @@ namespace CursoWindowsForms
             this.Lbl_Upper.Name = "Lbl_Upper";
             this.Lbl_Upper.Size = new System.Drawing.Size(32, 23);
             this.Lbl_Upper.TabIndex = 5;
+            this.Lbl_Upper.Click += new System.EventHandler(this.Lbl_Upper_Click);
             // 
             // Lbl_Lower
             // 
@@ -106,6 +111,7 @@ namespace CursoWindowsForms
             this.Lbl_Lower.Name = "Lbl_Lower";
             this.Lbl_Lower.Size = new System.Drawing.Size(32, 23);
             this.Lbl_Lower.TabIndex = 6;
+            this.Lbl_Lower.Click += new System.EventHandler(this.Lbl_Lower_Click);
             // 
             // Frm_DemonstracaoKey
             // 

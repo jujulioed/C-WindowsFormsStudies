@@ -29,6 +29,8 @@ namespace CursoWindowsForms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Principal_Menu_UC));
             this.Mnu_Principal = new System.Windows.Forms.MenuStrip();
             this.arquivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,6 +43,8 @@ namespace CursoWindowsForms
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Tbc_Aplicacoes = new System.Windows.Forms.TabControl();
+            this.Iml_Imagens = new System.Windows.Forms.ImageList(this.components);
+            this.fecharAbaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Mnu_Principal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +63,7 @@ namespace CursoWindowsForms
             // 
             this.arquivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.novoToolStripMenuItem,
+            this.fecharAbaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
             this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
@@ -75,7 +80,7 @@ namespace CursoWindowsForms
             this.validaCPF2ToolStripMenuItem,
             this.validaSenhaToolStripMenuItem});
             this.novoToolStripMenuItem.Name = "novoToolStripMenuItem";
-            this.novoToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.novoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.novoToolStripMenuItem.Text = "Novo";
             // 
             // desmontraçãoKeyToolStripMenuItem
@@ -135,7 +140,7 @@ namespace CursoWindowsForms
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
@@ -148,11 +153,30 @@ namespace CursoWindowsForms
             // Tbc_Aplicacoes
             // 
             this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Tbc_Aplicacoes.ImageList = this.Iml_Imagens;
             this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 24);
             this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
             this.Tbc_Aplicacoes.SelectedIndex = 0;
             this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 426);
             this.Tbc_Aplicacoes.TabIndex = 1;
+            // 
+            // Iml_Imagens
+            // 
+            this.Iml_Imagens.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("Iml_Imagens.ImageStream")));
+            this.Iml_Imagens.TransparentColor = System.Drawing.Color.Transparent;
+            this.Iml_Imagens.Images.SetKeyName(0, "Frm_DemonstracaoKey.png");
+            this.Iml_Imagens.Images.SetKeyName(1, "Frm_HelloWorld.png");
+            this.Iml_Imagens.Images.SetKeyName(2, "Frm_Mascara.png");
+            this.Iml_Imagens.Images.SetKeyName(3, "Frm_ValidaCPF.png");
+            this.Iml_Imagens.Images.SetKeyName(4, "Frm_ValidaCPF2.png");
+            this.Iml_Imagens.Images.SetKeyName(5, "Frm_ValidaSenha.png");
+            // 
+            // fecharAbaToolStripMenuItem
+            // 
+            this.fecharAbaToolStripMenuItem.Name = "fecharAbaToolStripMenuItem";
+            this.fecharAbaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.fecharAbaToolStripMenuItem.Text = "Fechar Aba";
+            this.fecharAbaToolStripMenuItem.Click += new System.EventHandler(this.fecharAbaToolStripMenuItem_Click);
             // 
             // Frm_Principal_Menu_UC
             // 
@@ -186,5 +210,7 @@ namespace CursoWindowsForms
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
         private System.Windows.Forms.TabControl Tbc_Aplicacoes;
+        private System.Windows.Forms.ImageList Iml_Imagens;
+        private System.Windows.Forms.ToolStripMenuItem fecharAbaToolStripMenuItem;
     }
 }

@@ -43,6 +43,7 @@ namespace CursoWindowsForms
             // 
             // Btn_VerConteudo
             // 
+            this.Btn_VerConteudo.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.Btn_VerConteudo.Location = new System.Drawing.Point(35, 209);
             this.Btn_VerConteudo.Name = "Btn_VerConteudo";
             this.Btn_VerConteudo.Size = new System.Drawing.Size(258, 37);
@@ -53,6 +54,7 @@ namespace CursoWindowsForms
             // 
             // Btn_Telefone
             // 
+            this.Btn_Telefone.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Telefone.Location = new System.Drawing.Point(211, 166);
             this.Btn_Telefone.Name = "Btn_Telefone";
             this.Btn_Telefone.Size = new System.Drawing.Size(82, 37);
@@ -63,6 +65,7 @@ namespace CursoWindowsForms
             // 
             // Btn_Senha
             // 
+            this.Btn_Senha.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.Btn_Senha.Location = new System.Drawing.Point(123, 166);
             this.Btn_Senha.Name = "Btn_Senha";
             this.Btn_Senha.Size = new System.Drawing.Size(82, 37);
@@ -73,6 +76,7 @@ namespace CursoWindowsForms
             // 
             // Btn_Data
             // 
+            this.Btn_Data.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Btn_Data.Location = new System.Drawing.Point(35, 166);
             this.Btn_Data.Name = "Btn_Data";
             this.Btn_Data.Size = new System.Drawing.Size(82, 37);
@@ -83,6 +87,7 @@ namespace CursoWindowsForms
             // 
             // Btn_Moeda
             // 
+            this.Btn_Moeda.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Btn_Moeda.Location = new System.Drawing.Point(211, 123);
             this.Btn_Moeda.Name = "Btn_Moeda";
             this.Btn_Moeda.Size = new System.Drawing.Size(82, 37);
@@ -93,6 +98,7 @@ namespace CursoWindowsForms
             // 
             // Btn_CEP
             // 
+            this.Btn_CEP.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.Btn_CEP.Location = new System.Drawing.Point(123, 123);
             this.Btn_CEP.Name = "Btn_CEP";
             this.Btn_CEP.Size = new System.Drawing.Size(82, 37);
@@ -122,6 +128,7 @@ namespace CursoWindowsForms
             // 
             // Lbl_Conteudo
             // 
+            this.Lbl_Conteudo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Lbl_Conteudo.AutoSize = true;
             this.Lbl_Conteudo.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_Conteudo.Location = new System.Drawing.Point(35, 259);
@@ -131,6 +138,8 @@ namespace CursoWindowsForms
             // 
             // Msk_TextBox
             // 
+            this.Msk_TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Msk_TextBox.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Msk_TextBox.Location = new System.Drawing.Point(35, 44);
             this.Msk_TextBox.Name = "Msk_TextBox";

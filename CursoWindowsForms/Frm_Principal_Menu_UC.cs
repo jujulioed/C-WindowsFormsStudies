@@ -19,6 +19,7 @@ namespace CursoWindowsForms
         int ControleCPF = 0;
         int ControleCPF2 = 0;
         int ControleSenha = 0;
+        int ControleArquivoImagem = 0;
 
         public Frm_Principal_Menu_UC()
         {
@@ -121,6 +122,30 @@ namespace CursoWindowsForms
                 Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.SelectedTab);
             }
             
+        }
+
+        private void abrirImagemToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog Db = new OpenFileDialog();
+            Db.InitialDirectory = "E:\\C#_Projects\\repos\\Alura_Curso\\CursoWindowsForms\\CursoWindowsForms\\Imagens";
+            Db.Filter = "PNG|*.PNG";
+            Db.Title = "Escolha a Imagem";
+
+            if (Db.ShowDialog() == DialogResult.OK)
+            {
+
+                string nomeArquivoImage = Db.FileName;
+
+                ControleArquivoImagem += 1;
+                Frm_ArquivoImagem U = new Frm_ArquivoImagem(nomeArquivoImage);
+                U.Dock = DockStyle.Fill;
+                TabPage TB = new TabPage();
+                TB.Name = "Arquivo Imagem " + ControleArquivoImagem;
+                TB.Text = "Arquivo Imagem " + ControleArquivoImagem;
+                TB.ImageIndex = 6;
+                TB.Controls.Add(U);
+                Tbc_Aplicacoes.TabPages.Add(TB);
+            }
         }
     }
 }
